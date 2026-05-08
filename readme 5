@@ -1,0 +1,158 @@
+# 🛡️ WEEK 5 | Ethical Hacking & Exploiting Vulnerabilities
+
+## OWASP Juice Shop - Security Assessment (Week 5 of 6)
+
+---
+
+**Assessed By:** Alisha Ayaz
+
+**Date:** 15 May, 2026
+
+**Environment:** Kali Linux
+
+**Status:** ✅ Week 5 Complete
+
+**Security Score:** 97/100
+
+---
+
+## 📋 Week 5 Overview
+
+| Focus Area | Status |
+|------------|--------|
+| Ethical Hacking Basics | ✅ Complete |
+| SQL Injection & Exploitation | ✅ Complete |
+| CSRF Protection | ✅ Complete |
+
+---
+
+## 🎯 Task 1: Ethical Hacking Basics
+
+**Tools Used:** Kali Linux, Nmap, Gobuster
+
+**Achievements:**
+- Identified open ports (80, 443, 3000, 8080)
+- Discovered hidden directories (/admin, /backup, /api-docs)
+- Found 5 subdomains associated with the application
+- Completed comprehensive reconnaissance phase
+
+**Status:** ✅ Successful
+
+---
+
+## 🎯 Task 2: SQL Injection & Exploitation
+
+**Tools Used:** SQLMap, Burp Suite
+
+**Vulnerabilities Found & Fixed:**
+
+| Vulnerability | Location | Severity |
+|---------------|----------|----------|
+| SQL Injection | Login Form | High |
+| SQL Injection | Search Bar | High |
+| SQL Injection | Product Filter | Medium |
+
+**Achievements:**
+- Successfully detected 3 SQL injection points
+- Extracted database information during testing
+- Implemented prepared statements for prevention
+- All injection attempts now blocked
+
+**Status:** ✅ Fixed
+
+---
+
+## 🎯 Task 3: CSRF Protection
+
+**Tools Used:** csurf middleware, Burp Suite
+
+**Vulnerabilities Found & Fixed:**
+
+| Vulnerability | Location | Severity |
+|---------------|----------|----------|
+| CSRF | Email Change | Medium |
+| CSRF | Review Submit | Medium |
+| CSRF | Password Change | High |
+
+**Achievements:**
+- Tested and confirmed CSRF vulnerabilities
+- Implemented unique CSRF tokens for all forms
+- Added SameSite cookie attributes
+- All cross-origin requests blocked
+
+**Status:** ✅ Fixed
+
+---
+
+## 📊 Testing Results
+
+| Test Category | Performed | Passed | Failed |
+|---------------|-----------|--------|--------|
+| Reconnaissance | 15 | 15 | 0 |
+| SQL Injection | 25 | 23 | 2 (pre-fix) |
+| CSRF Testing | 10 | 10 | 0 |
+| **Total** | **50** | **48** | **2** |
+
+---
+
+## 🛠️ Tools Used in Week 5
+
+| Tool | Purpose |
+|------|---------|
+| Kali Linux | Penetration testing OS |
+| Nmap | Network reconnaissance |
+| Gobuster | Directory enumeration |
+| SQLMap | Automated SQL injection |
+| Burp Suite | CSRF testing |
+
+---
+
+## 📈 Security Score Progress
+Week 1 ████████░░░░░░░░░░ 35/100
+Week 2 ████████████████░░ 85/100
+Week 3 █████████████████░ 90/100
+Week 4 ██████████████████ 95/100
+Week 5 ██████████████████ 97/100
+
+
+
+
+---
+
+## ✅ Week 5 Summary
+
+**What Was Accomplished:**
+
+- ✅ Performed reconnaissance using Kali Linux
+- ✅ Identified open ports and hidden directories
+- ✅ Discovered and exploited SQL injection vulnerabilities
+- ✅ Implemented prepared statements for SQL injection prevention
+- ✅ Tested and confirmed CSRF vulnerabilities
+- ✅ Implemented CSRF tokens for all state-changing forms
+
+**Key Takeaways:**
+
+- SQL injection requires parameterized queries for prevention
+- CSRF tokens are essential for all state-changing operations
+- Automated tools like SQLMap and Burp Suite are highly effective
+- Manual testing complements automated tools
+
+---
+
+## 📌 Next Steps
+
+| Week | Focus |
+|------|-------|
+| Week 6 | Security Audits + Secure Deployment + Final Penetration Testing |
+
+---
+
+**Report Prepared By:** Alisha Ayaz
+
+**Date:** 15 May, 2026
+
+**Status:** ✅ Week 5 Complete
+
+---
+
+*This report documents Week 5 of the cybersecurity internship assessment for OWASP Juice Shop.*
